@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\aes\aes.c">
+      <Filter>Source Files\AES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\aes\aes_c.c">
+      <Filter>Source Files\AES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\aes\aes_ni.c">
+      <Filter>Source Files\AES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\random\rand_urandom_aesctr\rand_urandom_aesctr.c">
+      <Filter>Source Files\random</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\random\rand_urandom_chacha20\rand_urandom_chacha20.c">
+      <Filter>Source Files\random</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\kex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\kex_lwe_frodo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\kex_lwe_frodo_macrify.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\lwe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\lwe_macrify.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\lwe_noise.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\random\rand.c">
+      <Filter>Source Files\random</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sha3\fips202.c">
+      <Filter>Source Files\sha3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\lwe_macrify_reference.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sha3\fips202x4.c">
+      <Filter>Source Files\sha3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sha3\keccak4x\KeccakP-1600-times4-SIMD256.c">
+      <Filter>Source Files\sha3\fips202x4</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\aes\aes.h">
+      <Filter>Source Files\AES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\random\rand_urandom_aesctr\rand_urandom_aesctr.h">
+      <Filter>Source Files\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\random\rand_urandom_chacha20\rand_urandom_chacha20.h">
+      <Filter>Source Files\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\frodo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\frodo_macrify.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\kex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\kex_lwe_frodo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\random\rand.h">
+      <Filter>Source Files\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sha3\fips202.h">
+      <Filter>Source Files\sha3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sha3\fips202x4.h">
+      <Filter>Source Files\sha3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sha3\keccak4x\align.h">
+      <Filter>Source Files\sha3\fips202x4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sha3\keccak4x\brg_endian.h">
+      <Filter>Source Files\sha3\fips202x4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sha3\keccak4x\KeccakP-1600-times4-SnP.h">
+      <Filter>Source Files\sha3\fips202x4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sha3\keccak4x\SIMD256-config.h">
+      <Filter>Source Files\sha3\fips202x4</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{47469e83-ec7a-4d69-baf0-ab15e961629e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7041c366-2ed8-4a00-8e92-4f6e2471eb9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AES">
+      <UniqueIdentifier>{71c917ec-9181-4b88-bdfc-9611ee1abe9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\random">
+      <UniqueIdentifier>{fd44eb34-2f81-411e-a55f-f279c4b101de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sha3">
+      <UniqueIdentifier>{656e58e0-96ef-4f93-9711-0ebe15c55da2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sha3\fips202x4">
+      <UniqueIdentifier>{a4e39759-10c0-4a8e-bbf8-6462b7fe0c2f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\sha3\keccak4x\KeccakP-1600-unrolling.macros">
+      <Filter>Source Files\sha3\fips202x4</Filter>
+    </None>
+  </ItemGroup>
+</Project>
